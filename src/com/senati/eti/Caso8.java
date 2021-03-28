@@ -47,7 +47,7 @@ public class Caso8 {
 		System.out.println("\n -- DATOS REGISTRADOS -- ");
 		System.out.println("==========================");
 		
-		System.out.println("Alumni(a) \tEdad \t\tEstado \t\t\tEstado ");
+		System.out.println("Alumno(a) \tEdad \t\tEstado \t\t\tEstado ");
 		System.out.println("---------------------------------------------------------------- ");
 		
 		for (int i = 0; i < arrNombre.size(); i++) {
@@ -74,7 +74,7 @@ public class Caso8 {
 		else if(edad > 17 && edad <= 24)
 			estado = "juventud";
 		else if(edad > 24 && edad <= 59)
-			estado = "aduto";
+			estado = "adulto";
 		else if(edad >=60)
 			estado = "adulto mayor";
 		
